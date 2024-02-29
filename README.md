@@ -94,7 +94,7 @@
 
 本系统采用PythonFlask框架，falsk框架是一款基于WSGI的轻量级的Web框架,flask犹如耳详的"麻雀虽小,五脏俱全",因此flask具有简单可扩展性的特点。下图是基于深度学习的个性化动漫推荐系统PythonFlask的框架图，图中蓝字为广义上MVC开发模式划分的模块，绿字为Flask框架对应的模块。如图 2.4.1.1所示：
 
-<img src="file:///C:\Users\houwenke\AppData\Local\Temp\ksohtml18016\wps1.jpg" alt="img" style="zoom: 33%;" /> 
+<img src="img/wps1.jpg" alt="img" style="zoom: 33%;" /> 
 
 图2.4.1.1 Python Flask框架图
 
@@ -102,7 +102,7 @@
 
 本系统用ElasticSearch技术进行相关索引的建立，加快查询速度，mysql数据库进行推荐数据的存储。下图是基于深度学习的个性化动漫推荐系统的系统模块架构设计图，反映了系统的工作原理，如图 2.4.2.1 所示：
 
- <img src="file:///C:\Users\houwenke\AppData\Local\Temp\ksohtml18016\wps2.jpg" alt="img" style="zoom:33%;" />
+ <img src="img/wps2.jpg" alt="img" style="zoom:33%;" />
 
  
 
@@ -114,7 +114,7 @@
 
 下图是基于深度学习的个性化动漫推荐系统的推荐模块架构设计图，反映了推荐模块的工作原理，如图 2.4.3.1 所示： 
 
-<img src="file:///C:\Users\houwenke\AppData\Local\Temp\ksohtml18016\wps3.jpg" alt="img" style="zoom:33%;" /> 
+<img src="img/wps3.jpg" alt="img" style="zoom:33%;" /> 
 
 图2.4.3.1 推荐模块架构设计图
 
@@ -128,7 +128,7 @@
 
 (4) 将这些动漫序列输入到Word2Vec模型中，生成最终的动漫Embedding，如图2.4.4.1(d)所示。
 
-<img src="file:///C:\Users\houwenke\AppData\Local\Temp\ksohtml18016\wps4.jpg" alt="img" style="zoom:33%;" /> 
+<img src="img/wps4.jpg" alt="img" style="zoom:33%;" /> 
 
 图2.4.4.1 动漫embedding生成过程
 
@@ -136,7 +136,7 @@
 
 本系统采用MLP的深度学习推荐模型，它的优点显著，在两部分联合训练，易部署；结构简单，复杂度低，共享输入，共享信息，可更精确的训练学习。下图是基于深度学习的个性化动漫推荐系统推荐模块中的深度学习模型，如图 2.4.5.1所示：
 
-<img src="file:///C:\Users\houwenke\AppData\Local\Temp\ksohtml18016\wps5.jpg" alt="img" style="zoom:33%;" /> 
+<img src="img/wps5.jpg" alt="img" style="zoom:33%;" /> 
 
 图2.4.5.1 深度学习推荐模型
 
@@ -204,11 +204,11 @@
 
 用户在当前的界面进行相应的账号和密码的设置后，点击界面上的登录按钮进行相应的用户登录操作。如图5.1.1所示。输入正确的应户名和密码即可进入基于深度学习的个性化动漫推荐系统，账号或密码错误则提示对话框“校验失败，用户名或密码错误！”，点击确定，重新进入登录界面，继续登录。登陆后点击头像出现个人菜单，点击退出即可退出系统。如图5.1.2所示。
 
-<img src="file:///C:\Users\houwenke\AppData\Local\Temp\ksohtml18016\wps6.jpg" alt="img" style="zoom:33%;" /> 
+<img src="img/wps6.jpg" alt="img" style="zoom:33%;" /> 
 
 图5.1.1 登陆模块
 
-<img src="file:///C:\Users\houwenke\AppData\Local\Temp\ksohtml18016\wps7.jpg" alt="img" style="zoom:33%;" /> 
+<img src="img/wps7.jpg" alt="img" style="zoom:33%;" /> 
 
 图5.1.2 个人菜单模块
 
@@ -216,7 +216,7 @@
 
 用户点击注册即可到注册页面，按照相应要求进行注册，前端会进行相应校验，按要求填完信息后点击确定即可注册成功。如图5.2.1所示。
 
-<img src="file:///C:\Users\houwenke\AppData\Local\Temp\ksohtml18016\wps8.jpg" alt="img" style="zoom:33%;" /> 
+<img src="img/wps8.jpg" alt="img" style="zoom:33%;" /> 
 
 图5.2.1 注册模块
 
